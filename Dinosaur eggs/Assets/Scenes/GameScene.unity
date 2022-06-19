@@ -588,7 +588,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 0
+  m_IsActive: 1
 --- !u!4 &1802339972
 Transform:
   m_ObjectHideFlags: 0
@@ -623,7 +623,7 @@ MonoBehaviour:
   - {fileID: 8205877253636901913, guid: 6a70352d5a47aff4e902cb1dc660d56a, type: 3}
   - {fileID: 6883519655726989086, guid: 063d55361af41214485322243d22f44c, type: 3}
   - {fileID: 8024593863943753778, guid: 7ecb2507d96d5cf42981795e3273bcea, type: 3}
-  columnLimit: 7
+  columnLimit: 20
   generatePos: {x: -0.48, y: 0.92}
 --- !u!1001 &2739146099588691276
 PrefabInstance:
@@ -638,7 +638,7 @@ PrefabInstance:
       objectReference: {fileID: 0}
     - target: {fileID: 2739146098031436185, guid: 9ef469026266f6342a31a34d50e7b278, type: 3}
       propertyPath: m_IsActive
-      value: 1
+      value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 2739146098031436187, guid: 9ef469026266f6342a31a34d50e7b278, type: 3}
       propertyPath: m_RootOrder
@@ -703,6 +703,8 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 137c9a1a28e263f488e40425b9c990cc, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  delayTime: 4
+  animationDelayTime: 3
 --- !u!1001 &4273509018334907539
 PrefabInstance:
   m_ObjectHideFlags: 0

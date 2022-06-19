@@ -9,25 +9,17 @@ public class EggsController : MonoBehaviour
     [SerializeField] private float delayTime;
     [SerializeField] private float animationDelayTime;
 
-    [SerializeField] private bool isStartSlide;
-
     #endregion
 
     #region Unity default method
 
     void Start()
     {
-        isStartSlide = false;
         StartCoroutine(WaitForSlide(delayTime));
-
     }
                
     void Update()
     {
-        if(isStartSlide)
-        {
-            StartCoroutine(SlideDownAnimation(animationDelayTime));
-        }
     }
 
     #endregion
@@ -37,12 +29,21 @@ public class EggsController : MonoBehaviour
     private IEnumerator WaitForSlide(float delayTime)
     {
         yield return new WaitForSeconds(delayTime);
-        isStartSlide = true;        
+        StartCoroutine(RunMoveDownAnimation(animationDelayTime));
     }
 
-    private IEnumerator SlideDownAnimation(float animationDelay)
+    private IEnumerator RunMoveDownAnimation(float animationDelayTime)
     {
-        yield return null;
+        while (true)
+        {
+            yield return new WaitForSeconds(animationDelayTime);
+            MoveDownAnimation();
+        }
+    }
+
+    private void MoveDownAnimation()
+    {
+        this.transform.Translate(Vector3.down * 0.16f);
     }
 
     #endregion

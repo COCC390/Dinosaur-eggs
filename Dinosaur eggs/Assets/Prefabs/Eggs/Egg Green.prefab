@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 2739146098031436186}
   - component: {fileID: 2739146098031436181}
   - component: {fileID: 2739146098031436180}
+  - component: {fileID: -6365166452961678476}
   m_Layer: 0
   m_Name: Egg Green
   m_TagString: Untagged
@@ -131,3 +132,17 @@ BoxCollider2D:
   serializedVersion: 2
   m_Size: {x: 0.16, y: 0.16}
   m_EdgeRadius: 0
+--- !u!114 &-6365166452961678476
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 2739146098031436185}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 137c9a1a28e263f488e40425b9c990cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delayTime: 5
+  animationDelayTime: 3

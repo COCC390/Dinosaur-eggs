@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 8024593863943753779}
   - component: {fileID: 7240852555204140667}
   - component: {fileID: 6736328320696879448}
+  - component: {fileID: -2676247735225988720}
   m_Layer: 0
   m_Name: Egg Purple
   m_TagString: Untagged
@@ -131,3 +132,17 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &-2676247735225988720
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 8024593863943753778}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 137c9a1a28e263f488e40425b9c990cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delayTime: 5
+  animationDelayTime: 3

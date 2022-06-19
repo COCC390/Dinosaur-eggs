@@ -12,6 +12,7 @@ GameObject:
   - component: {fileID: 4273509016725100130}
   - component: {fileID: 2954631301610565361}
   - component: {fileID: 7457324282806497674}
+  - component: {fileID: -940292697630553241}
   m_Layer: 0
   m_Name: Egg Brown
   m_TagString: Untagged
@@ -131,3 +132,17 @@ Rigidbody2D:
   m_SleepingMode: 1
   m_CollisionDetection: 0
   m_Constraints: 0
+--- !u!114 &-940292697630553241
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4273509016725100131}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 137c9a1a28e263f488e40425b9c990cc, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  delayTime: 5
+  animationDelayTime: 3
